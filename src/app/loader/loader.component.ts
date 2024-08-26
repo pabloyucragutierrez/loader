@@ -6,9 +6,9 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./loader.component.scss'],
 })
 export class LoaderComponent implements OnInit {
-  @Input() imageSet: string[] = []; // Configuración de imágenes
-  @Input() textSet: string[] = []; // Configuración de textos
-  @Input() intervalTime: number = 3000; // Tiempo de cambio (ms)
+  @Input() imageSet: string[] = []; 
+  @Input() textSet: string[] = []; 
+  @Input() intervalTime: number = 3000; 
   
   currentImage: string = '';
   currentText: string = '';
