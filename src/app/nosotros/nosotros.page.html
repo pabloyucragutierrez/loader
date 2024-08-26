@@ -1,11 +1,11 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>Home</ion-title>
+    <ion-title>nosotros</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-button expand="full" (click)="startProcess()">Cargar loader</ion-button>
+<ion-content [fullscreen]="true">
+  <ion-button expand="full" (click)="startProcess()">cargar loader</ion-button>
 
   <app-loader 
     *ngIf="showLoader"
